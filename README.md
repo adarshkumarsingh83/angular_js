@@ -1,4 +1,6 @@
-angular_js
-==========
 
-Basic Sample Application for Angular js
+OWNER : ADARSH KUMAR 
+EMAIL : ADARSHKUMARSINGH83@GMAIL.COM
+
+ANGULAR-JS APPLICATION REPOSITORY 
+---------------------------------------------
