@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="MyBasicAngularApplicationRoot">
+<head>
+    <title>Angular Page</title>
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body ng-controller="MyAppController">
+<center>
+    <table>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee Email</th>
+        </tr>
+        <tr ng-repeat="employee in employeeList">
+            <td>{{employee.employeeId}}</td>
+            <td>{{employee.employeeName}}</td>
+            <td>{{employee.employeeEmail}}</td>
+        </tr>
+
+    </table>
+
+</center>
+</body>
+</html>
