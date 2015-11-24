@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="AngularLoginBasicAuthentication">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Basic HTTP Authentication Example</title>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.min.css" />
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+    <div class="credits text-center">
+        <p>
+            <a href="http://adarshkumarsingh83.blogspot.in/">Espark</a>
+        </p>
+    </div>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/angular-route.js"></script>
+    <script src="js/libs/angular-cookies.js"></script>
+    <script src="js/application.js"></script>
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+mvn clean install
+
+
+Installing Protractor dependencies
+-------------------------
+Protractor is an end-to-end testing framework used for testing Angular applications.
+To install Protractor the following dependencies must be installed in this order:
+Download and install NodeJS (http://nodejs.org/download). This installs the NodePackageManager (npm) which you first need to be able to install Protractor.
+
+Add NodeJS and npm to your PATH (if the install hasn't already done that for you) i.e. C:\Users\<user>\AppData\Roaming\npm\ and C:\Program Files\nodejs\
+
+Install Protractor using npm:
+From command line issue:
+
+Windows
+npm install -g protractor [--python=c:\python27]
+(the optional python argument is if the version of python on your path is 3.x.) or..
+
+*nix
+sudo npm install -g protractor
+
+Note: There is a bug in Windows with the latest version of npm. If when installing Protractor you get the following error "Error: ENOENT, stat 'C:\users\<user>\AppData\Roaming\npm", to fix this you have to manually create the npm directory at this location. See here http://stackoverflow.com/questions/25093276/nodejs-windows-error-enoent-stat-c-users-rt-appdata-roaming-npm for more information if needed.
+
+Install the Selenium standalone jar using npm:
+From command line, from your nodejs folder (e.g. C:\Program Files\nodejs):
+
+Windows
+npm install selenium-server-standalone-jar or..
+
+*nix
+sudo npm install selenium-server-standalone-jar
+
+Configure your Maven settings to point to the Selenium standalone jar
+-------------------------
+Go to your .m2 directory (i.e. C:\Users\<user>\.m2)
+Open the settings.xml file (or create the file if it doesn't already exist)
+Add this to the contents:
+settings.xml
+<settings>
+  <profiles>
+    <profile>
+      <id>myProfile</id>
+      <properties>
+        <!-- MAKE SURE THIS PATH REFLECTS THE LOCATION ON YOUR MACHINE-->
+        <selenium-standalone-jar.location>C:/PROGRA~1/nodejs/node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-2.43.1.jar</selenium-standalone-jar.location>
+      </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>myProfile</activeProfile>
+  </activeProfiles>
+</settings>
+
+Other useful links:
+-------------------------
+This is a useful article to see how it all hangs together: http://www.ng-newsletter.com/posts/practical-protractor.html
+This article talks about selenium: https://github.com/angular/protractor/blob/master/docs/server-setup.md

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-ng-app="MyBasicAngularApplicationRoot">
+<head>
+    <title> Sample Angular Example</title>
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css">
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.min.css">
+</head>
+<body data-ng-controller="MyAppController">
+<div class="myDiv">
+    <br/>
+
+    <h1 id="h1"> {{ applicationMsg }}</h1>
+</div>
+<br/>
+
+<my-custom-directive class="myDiv">
+    ADARSH KUMAR
+</my-custom-directive>
+
+<br/>
+<br/>
+
+<div my-mouse-event-directive class="btn btn-default" class="btnDiv">
+    MOUSE EVENT
+</div>
+</body>
+</html>

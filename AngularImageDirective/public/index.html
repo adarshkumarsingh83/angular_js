@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="ImageDirective">
+<head>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/angular-route.js"></script>
+    <script src="js/libs/angular-cookies.js"></script>
+
+    <script src="js/application.js"></script>
+</head>
+
+<body ng-controller="DataController">
+
+<div> {{errorMsg}}</div>
+
+<div> FirstName : {{ person.firstName }}</div>
+<div> LastName : {{ person.lastName }}</div>
+<div><img ng-src="{{ person.imageSrc }}" title="{{ person.firstName }} {{ person.lastName }}" class="img-rounded"
+          width="304" height="236"/></div>
+
+</body>
+</html>

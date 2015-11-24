@@ -1,6 +1,7 @@
 angular.module("MyBasicAngularApplicationRoot", []);
 
-angular.module("MyBasicAngularApplicationRoot").controller("MyAppController", ["$http", "$scope", "MyApplicationService"
+angular.module("MyBasicAngularApplicationRoot")
+    .controller("MyAppController", ["$http", "$scope", "MyApplicationService"
 
     , function ($http, $scope, MyApplicationService) {
         $scope.angularMsg = "Welcome to Angular ";
@@ -60,13 +61,13 @@ angular.module("MyBasicAngularApplicationRoot")
             return MyApplicationFactory.employeeFromFactory();
         }
 
-
         return {
             employeeFromService: getEmployeesFromService
         };
     }]);
 
-angular.module("MyBasicAngularApplicationRoot").factory("MyApplicationFactory", ["$http", function ($http) {
+angular.module("MyBasicAngularApplicationRoot")
+    .factory("MyApplicationFactory", ["$http", function ($http) {
 
     function getEmployeesFromFactory() {
         // return $http.get("rest/json/employee/get");

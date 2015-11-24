@@ -1,0 +1,9 @@
+start the jetty server for web application then
+go to the following location and then run the command
+
+D:\RAndD\AngularJs\angular_js\AngularLoginBasicAuthentication\src\main>npm run protractor
+
+if not working then
+D:\RAndD\AngularJs\angular_js\AngularLoginBasicAuthentication\src\main>npm install  protractor@1.4 -g
+
+npm install
