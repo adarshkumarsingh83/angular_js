@@ -1,0 +1,5 @@
+http://localhost:9090/AngularBiDirectionalBindingSample
+
+ANGULARJS\AngularBiDirectionalBindingSample>mvn clean install
+ANGULARJS\AngularBiDirectionalBindingSample>mvn package
+ANGULARJS\AngularBiDirectionalBindingSample>mvn jetty:run
