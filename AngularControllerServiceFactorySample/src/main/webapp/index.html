@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-app="MyBasicAngularApplicationRoot">
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+</head>
+<body data-ng-controller="MyAppController">
+<div class="espark">
+
+
+    <div class="alert alert-info" style="text-align: center">
+        <h1>ESPARK ANGULAR CONTROLLER SERVICE FACTORY </h1>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+
+            <div class="alert alert-info">
+                <h3> {{ angularMsg }}</h3>
+            </div>
+
+            <div class="form-group">
+
+                <br/>
+                <input class="form-control" type="text" data-ng-model="firstName"
+                       placeholder="Enter the Text Value"/>
+
+                <br/>
+                <input class="form-control" type="text" data-ng-model="lastName"
+                       placeholder="Enter the Text Value"/>
+                <br/>
+
+                <div class="alert alert-info">
+                    {{ firstName+" "+lastName }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
