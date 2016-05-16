@@ -1,0 +1,5 @@
+http://localhost:9090/AngularControllerFactorySample
+
+ANGULARJS\AngularControllerFactorySample>mvn clean install
+ANGULARJS\AngularControllerFactorySample>mvn package
+ANGULARJS\AngularControllerFactorySample>mvn jetty:run
