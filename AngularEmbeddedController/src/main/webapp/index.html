@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function MyAppController($scope) {
+            $scope.angularMsgModelObject = "Welcome to Application";
+            $scope.msgBox;
+        }
+    </script>
+</head>
+<body data-ng-controller="MyAppController">
+<div class="espark">
+
+    <div class="alert alert-info" style="text-align: center">
+            <h1>ESPARK ANGULAR EMBEDDED CONTROLLER </h1>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+                <div class="alert alert-info">
+                    <h4> {{ angularMsgModelObject }}</h4>
+                </div>
+
+                <div class="form-group">
+
+                    <input class="form-control" type="text" data-ng-model="msgBox"
+                           placeholder="Enter the Text Value"/>
+                    <br/>
+
+                    <div class="alert alert-info">
+                        {{ msgBox }}
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
