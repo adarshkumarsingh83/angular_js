@@ -1,0 +1,17 @@
+.myDiv{
+    /* style by class type */
+    background: antiquewhite;
+}
+#h1{
+    /* style by id ,name*/
+    font-style: italic;
+    font-size: large;
+    color: maroon;
+}
+
+#h2{
+    /* style by id ,name*/
+    font-style: italic;
+    font-size: large;
+    color: maroon;
+}

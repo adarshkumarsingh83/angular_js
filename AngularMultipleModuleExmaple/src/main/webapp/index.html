@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-app="MyBasicAngularApplicationRoot">
+<head>
+    <title> Sample Angular Example</title>
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+<link rel="stylesheet" href="css/bootstrap-3.1.1.css">
+<link rel="stylesheet" href="css/bootstrap-3.1.1.min.css">
+<script type="text/javascript" src="js/libs/angular.js"></script>
+
+<script type="text/javascript" src="js/application.js"></script>
+
+<script type="text/javascript" src="js/controller/myController1.js"></script>
+<script type="text/javascript" src="js/controller/myController2.js"></script>
+
+<script type="text/javascript" src="js/service/myService1.js"></script>
+<script type="text/javascript" src="js/service/myService2.js"></script>
+
+<script type="text/javascript" src="js/factory/myFactory1.js"></script>
+<script type="text/javascript" src="js/factory/myFactory2.js"></script>
+</head>
+<body>
+<div class="espark-example">
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                <h3>ESPARK ANGULAR MULTIPLE MODULES EXAMPLE </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="text-align: center">
+        <div class="alert alert-info" data-ng-controller=" MyAppController1">
+            <h1 id="h1"> {{ applicationMsg1 }}</h1>
+        </div>
+
+        <div class="alert alert-info" data-ng-controller=" MyAppController2">
+            <h1 id="h2"> {{ applicationMsg2 }}</h1>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
