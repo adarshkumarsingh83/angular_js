@@ -1,0 +1,24 @@
+﻿<div class="alert alert-info">
+    Username: adarsh<br/>
+    Password: radha
+</div>
+<div ng-show="error" class="alert alert-danger">{{error}}</div>
+<form name="form" ng-submit="login()" role="form">
+    <fieldset style="margin:5px 5px 5px 5px;  width: 730px;  background-color:rgba(220, 218, 245, 0.41); ">
+        <legend><strong style="color:black;">Login Window</strong></legend>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" class="form-control" ng-model="username" required/>
+            <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control" ng-model="password" required/>
+            <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" ng-disabled="form.$invalid || dataLoading" class="btn btn-danger btn-block">Login</button>
+
+        </div>
+    </fieldset>
+</form>
