@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-ng-app="MyBasicAngularApplicationRoot">
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+</head>
+<body data-ng-controller="MyAppController">
+
+<div class="espark">
+
+
+    <div class="alert alert-info" style="text-align: center">
+            <h1>ESPARK ANGULAR JSON FILE READING </h1>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+                <div class="alert alert-info" style="text-align: center">
+                        <h4> PERSON INFORMATION</h4>
+                </div>
+        </div>
+        <table  class="table table-striped">
+            <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="person in angularJsonData | orderBy : 'personName'">
+                <td >{{ $index + 1 }}</td>
+                <td ng-if="$odd" style="background-color:#f1f1f1">{{ person.personName | lowercase}}</td>
+                <td ng-if="$even">{{ person.personName | uppercase}}</td>
+                <td ng-if="$odd" style="background-color:#f1f1f1">{{ person.country | lowercase}}</td>
+                <td ng-if="$even">{{ person.country | uppercase }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <ul class="list-group">
+            <h3>Person Information List</h3>
+            <li ng-repeat="person in angularJsonData" class="list-group-item">
+                {{ person.personName + ' s, ' + person.country }}
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
