@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>AngularControllerProperties</groupId>
+    <artifactId>AngularControllerProperties</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>war</packaging>
+    <name>AngularControllerProperties</name>
+    <url>http://maven.apache.org</url>
+
+    <organization>
+        <name>ESpark</name>
+        <url>http://adarshkumarsingh83.blogspot.in/</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>ESpark</name>
+            <url>http://adarshkumarsingh83.blogspot.in/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>adarshkumarsingh83</id>
+            <name>Adarsh Kumar</name>
+            <email>adarshkumarsingh83@gmail.com</email>
+            <roles>
+                <role>project architect</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.name>AngularControllerProperties</project.name>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.7</java.version>
+        <junit.version>4.8.1</junit.version>
+        <jettyVersion>9.0.2.v20130417</jettyVersion>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>${jettyVersion}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.name}</finalName>
+        <outputDirectory>target/classes</outputDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jettyVersion}</version>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <stopKey>STOP</stopKey>
+                    <stopPort>9968</stopPort>
+                    <war>${basedir}/target/AngularControllerProperties</war>
+                    <webApp>
+                        <contextPath>/AngularControllerProperties</contextPath>
+                    </webApp>
+                    <contextHandlers>
+                        <contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
+                            <war>${basedir}/target/AngularControllerProperties</war>
+                            <contextPath>/AngularControllerProperties/index.html</contextPath>
+                        </contextHandler>
+                    </contextHandlers>
+                    <httpConnector>
+                        <port>9090</port>
+                        <host>localhost</host>
+                    </httpConnector>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
