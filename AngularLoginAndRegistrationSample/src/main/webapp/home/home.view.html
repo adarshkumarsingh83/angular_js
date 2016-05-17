@@ -1,0 +1,18 @@
+﻿<div>
+    <div class="alert alert-info" style="text-align: center">
+            <h2>ESPARK USER HOME </h2>
+    </div>
+    <div class="alert alert-info" style="text-align: center">
+            <h5>Hi {{vm.user.firstName}} Welcome to Home</h5>
+    </div>
+        <h5>All registered users:</h5>
+    <ul class="list-group">
+        <li ng-repeat="user in vm.allUsers" class="list-group-item">
+            {{user.username}} ({{user.firstName}} {{user.lastName}})
+            <a href="#/" ng-click="vm.deleteUser(user.id)">Delete</a>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <p><a href="#/login" class="btn btn-primary btn-block">Logout</a></p>
+</div>
