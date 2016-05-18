@@ -1,0 +1,37 @@
+[2015-11-18 19:20:09.706] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:20:17.261] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:25:28.726] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:26:06.005] [DEBUG] dev - 127.0.0.1 - - "GET /index HTTP/1.1" 404 18 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:29:19.410] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:45:28.569] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:47:42.747] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:48:31.323] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:49:44.650] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:50:35.882] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:50:38.579] [DEBUG] dev - 127.0.0.1 - - "GET /localhost:8080/api/users HTTP/1.1" 404 37 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:02.664] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 200 71 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:43.070] [INFO] dev - listening on http://localhost:8080
+[2015-11-18 19:51:45.601] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:48.120] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:48.932] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:49.455] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:50.158] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:51:50.873] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:52:03.351] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:52:04.168] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2015-11-18 19:52:04.727] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+[2016-05-15 18:43:30.745] [INFO] dev - listening on http://localhost:8080
+[2016-05-15 18:43:45.769] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 200 71 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:45:41.777] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:45:41.834] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:46:30.485] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:47:28.651] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:47:43.883] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:48:34.064] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:48:45.228] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-18 18:58:40.775] [INFO] dev - listening on http://localhost:8080
+[2016-05-18 18:58:50.030] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 200 71 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-18 19:05:01.742] [INFO] dev - listening on http://localhost:8080
+[2016-05-18 19:05:10.314] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-18 19:05:29.240] [DEBUG] dev - 127.0.0.1 - - "GET /api/users HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-18 19:05:29.386] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"

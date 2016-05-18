@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html data-ng-app="ImageDirective">
+<head>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/angular-route.js"></script>
+    <script src="js/libs/angular-cookies.js"></script>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/bootstrap.js"></script>
+
+    <script src="js/application.js"></script>
+</head>
+
+<body data-ng-controller="DataController">
+
+<div class="espark">
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                    <h3>ESPARK ANGULAR IMAGE DIRECTIVE EXAMPLE </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="text-align: center">
+        <div class="alert-danger"> {{errorMsg}}</div>
+        <div><img ng-src="{{ person.imageSrc }}" title="{{ person.firstName }} {{ person.lastName }}"
+                  class="img-rounded"
+                  width="304" height="236"/></div>
+        <div class="alert alert-info center-block"> FirstName : {{ person.firstName }}</div>
+        <div class="alert alert-info center-block"> LastName : {{ person.lastName }}</div>
+    </div>
+</div>
+
+</body>
+</html>
