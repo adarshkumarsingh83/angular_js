@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-ng-app="Application">
+<head>
+    <title>Angular Translator</title>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/application.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+    <link rel="stylesheet" href="css/my.css"/>
+</head>
+<body data-ng-controller="ApplicationController">
+
+<div class="espark">
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                <h3>ESPARK ANGULAR RESPONSE CACHING EXAMPLE </h3>
+            </div>
+
+            <div class="alert alert-info" style="text-align: center">
+                <h4> {{msg}}</h4>
+            </div>
+
+            <br/>
+            <button class="btn btn-info" ng-click='getResponse(true,1)'>Fetch Cache Data</button>
+            &nbsp;&nbsp; <p>value : {{value1}}</p>
+            <br/>
+            <button class="btn btn-info" ng-click="getResponse(true,2)">Fetch Cache Data</button>
+            &nbsp;&nbsp; <p>value : {{value2}}</p>
+            <br/>
+            <button class="btn btn-info" ng-click="getResponse(false,3)">Fetch Fresh Data</button>
+            &nbsp;&nbsp; <p>value : {{value3}}</p>
+            <br/>
+            <button class="btn btn-info" ng-click="getResponse(true,4)">Fetch Cache Data</button>
+            &nbsp;&nbsp; <p>value : {{value4}}</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
