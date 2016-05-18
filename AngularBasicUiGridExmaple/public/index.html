@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="Application">
+<head>
+    <title>Angular Translator</title>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+    <link rel="stylesheet" href="css/ui-grid.css"/>
+    <link rel="stylesheet" href="css/my.css"/>
+    <script src="js/libs/angular.js"></script>
+    <!-- <script src="js/libs/pdfMake.js"></script>-->
+    <script src="js/libs/ui-grid.js"></script>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/bootstrap.js"></script>
+    <script src="js/libs/ngTouch.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/ApplicationService.js"></script>
+    <script src="js/ApplicationController.js"></script>
+</head>
+<body ng-controller="ApplicationController">
+<div class="espark-example">
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                <h3>ESPARK ANGULAR UI-GRID EXAMPLE </h3>
+            </div>
+
+            <div class="alert alert-info" style="text-align: center">
+              {{message}}
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <div id="grid1" ui-grid="gridOptions" class="grid"></div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

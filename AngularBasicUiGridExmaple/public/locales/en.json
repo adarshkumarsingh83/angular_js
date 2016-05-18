@@ -1,0 +1,20 @@
+{
+    "HEADLINE": "WELCOME TO APPLICATION",
+    "locale": {
+        "languageDE": "German",
+        "languageFR": "French",
+        "languageEN": "English",
+        "languageCode": "EN",
+        "ISOLanguageCodes": {
+            "EN_GB": "English (United Kingdom)",
+            "EN_US": "English (United States)",
+            "ES_ES": "Spanish",
+            "DE_DE": "German",
+            "FR_FR": "French",
+            "FR_CA": "French (Canada)"
+        }
+    },
+    "menu":{
+        "changeLanguage": "Change Language"
+    }
+}

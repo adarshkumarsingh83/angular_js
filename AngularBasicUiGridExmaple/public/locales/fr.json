@@ -1,0 +1,20 @@
+{
+    "HEADLINE": "BIENVENUE À LA DEMANDE",
+    "locale": {
+        "languageDE": "allemand-German",
+        "languageFR": "française-French",
+        "languageEN": "Anglais-English",
+        "languageCode": "FR",
+        "ISOLanguageCodes": {
+            "EN_GB": "DE.missingTranslation-en_gb",
+            "EN_US": "DE.missingTranslation-en_us",
+            "ES_ES": "DE.missingTranslation-es",
+            "DE_DE": "DE.missingTranslation-de",
+            "FR_FR": "DE.missingTranslation-fr",
+            "FR_CA": "DE.missingTranslation-fr_ca"
+        }
+    },
+    "menu": {
+        "changeLanguage": "Changer de langue"
+    }
+}

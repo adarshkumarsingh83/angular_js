@@ -1,0 +1,24 @@
+{
+  "name": "AngularBasicUiGridExmaple",
+  "version": "0.0.1",
+  "description": "A sample code project for angular ui grid",
+  "engineStrict": true,
+  "engine": "node 5.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "author": {
+    "name": "Adarsh Kumar",
+    "email": "adarsh@kumar.com",
+    "url": "http://adarshkumar83.espark.com/"
+  },
+  "dependencies": {
+    "angular-ui-grid": "^3.0.7",
+    "express": "^4.13.3",
+    "log4js": "^0.6.29",
+    "ngtouch": "^1.0.1",
+    "pdfmake": "^0.1.18"
+  }
+}
