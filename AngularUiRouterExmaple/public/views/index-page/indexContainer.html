@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div ui-view="header"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row clearer">
+                <header>
+                    <div ui-view="logo"></div>
+                    <div ui-view="login"></div>
+                </header>
+            </div>
+            <div class="row clearer">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div ui-view="content1"></div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div ui-view="content2"></div>
+                </div>
+                <div class="clearfix visible-xs"></div>
+            </div>
+
+        </div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs"></div>
+        <div ui-view="footer"></div>
+    </div>
+</div>

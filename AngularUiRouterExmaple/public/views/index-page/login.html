@@ -1,0 +1,20 @@
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="center-block">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-ng-show="errorPanel">
+            <p class="text-danger"> </p>
+        </div>
+        <form role="form" ng-submit="loginSubmit()">
+            <div class="col-xs-9 col-sm-8 col-md-8 col-lg-8">
+                <div class="form-group-vertical">
+                    <label class="sr-only" for="username" ></label>
+                    <input type="text" class="form-control" id="username" ng-model="username" placeholder="login.enterUsername" required="required">
+                    <label class="sr-only" for="password" ></label>
+                    <input type="password" class="form-control" id="password" ng-model="password" placeholder="login.enterPassword" required="required">
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4">
+                <button type="submit" class="btn btn-primary loginBtn" >Login</button>
+            </div>
+        </form>
+    </div>
+</div>
