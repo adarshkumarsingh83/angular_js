@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-ng-app="Application">
+<head>
+    <title>Angular Translator</title>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/bootstrap.js"></script>
+    <script src="js/libs/angular-translate.js"></script>
+    <script src="js/libs/angular-translate-loader-static-files.js"></script>
+    <script src="js/application.js"></script>
+    <!--<script src="js/TranslateController.js"></script>-->
+</head>
+<body data-ng-controller="TranslateController">
+<div class="espark">
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                    <h3>ESPARK ANGULAR I18N STATIC FILE </h3>
+            </div>
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <div class="dropdown">
+                            <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown">
+                                <b translate>{{ 'locale.languageCode' }}</b> | <span translate>{{ 'menu.changeLanguage' }}</span>
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="" ng-click="changeLanguage('de')" translate> {{ 'locale.languageDE' }}</a>
+                                </li>
+                                <li>
+                                    <a href="" ng-click="changeLanguage('en')" translate> {{ 'locale.languageEN' }}</a>
+                                </li>
+                                <li>
+                                    <a href="" ng-click="changeLanguage('fr')" translate> {{ 'locale.languageFR' }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="alert alert-info center-block" style="text-align: center">
+                        <h4>{{ 'HEADLINE' | translate }}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

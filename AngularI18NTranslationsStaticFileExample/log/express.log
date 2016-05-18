@@ -1,0 +1,71 @@
+[2015-12-10 15:12:36.895] [INFO] dev - localhost:3000
+[2015-12-10 15:12:45.121] [DEBUG] dev - 127.0.0.1 - - "GET /scripts/locales/en.json HTTP/1.1" 404 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:12:45.169] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:13:20.134] [DEBUG] dev - 127.0.0.1 - - "GET /scripts/locales/de.json HTTP/1.1" 404 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:13:21.752] [DEBUG] dev - 127.0.0.1 - - "GET /scripts/locales/fr.json HTTP/1.1" 404 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:13:53.543] [INFO] dev - localhost:3000
+[2015-12-10 15:13:58.859] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:18:16.365] [INFO] dev - localhost:3000
+[2015-12-10 15:18:20.907] [INFO] dev - localhost:3000
+[2015-12-10 15:21:53.960] [INFO] dev - localhost:3000
+[2015-12-10 15:27:10.129] [INFO] dev - localhost:3000
+[2015-12-10 15:27:53.495] [INFO] dev - localhost:3000
+[2015-12-10 15:28:56.576] [INFO] dev - localhost:3000
+[2015-12-10 15:29:07.391] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:33:38.521] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:33:55.086] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:34:24.112] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:35:14.489] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:36:14.349] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:39:07.138] [INFO] dev - localhost:3000
+[2015-12-10 15:39:14.642] [INFO] dev - localhost:3000
+[2015-12-10 15:39:22.351] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:40:17.795] [INFO] dev - localhost:3000
+[2015-12-10 15:40:22.198] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:43:09.772] [INFO] dev - localhost:3000
+[2015-12-10 15:43:14.590] [INFO] dev - localhost:3000
+[2015-12-10 15:43:17.710] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:45:42.090] [INFO] dev - localhost:3000
+[2015-12-10 15:45:46.160] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:45:48.073] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:45:49.708] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:45:50.836] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:46:48.523] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:48:36.218] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:53:50.047] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:54:20.281] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:55:51.554] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 15:56:50.358] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 16:57:37.851] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 16:59:14.871] [INFO] dev - localhost:3000
+[2015-12-10 16:59:19.733] [INFO] dev - localhost:3000
+[2015-12-10 16:59:23.952] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 17:00:28.983] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:28:50.938] [INFO] dev - localhost:3000
+[2015-12-10 19:28:53.899] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:29:53.417] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:30:03.483] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:32:25.219] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:32:30.964] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:33:57.131] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:34:03.841] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:35:13.271] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:35:17.073] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:35:50.416] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:35:56.041] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:37:39.937] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:42:29.588] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:43:09.277] [DEBUG] dev - 127.0.0.1 - - "GET /css/bootstrap.css.map HTTP/1.1" 404 34 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-10 19:45:21.412] [DEBUG] dev - 127.0.0.1 - - "GET /locales/fr.json HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-11 11:31:11.793] [INFO] dev - localhost:3000
+[2015-12-11 11:31:19.111] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36"
+[2015-12-11 11:37:27.366] [INFO] dev - localhost:3000
+[2015-12-15 14:06:23.452] [INFO] dev - localhost:3000
+[2015-12-15 19:39:35.929] [INFO] dev - localhost:3000
+[2016-05-15 18:17:28.637] [INFO] dev - localhost:3000
+[2016-05-15 18:18:11.206] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+[2016-05-15 18:19:44.088] [INFO] dev - localhost:3000
+[2016-05-18 19:12:12.421] [INFO] dev - localhost:3000
+[2016-05-18 19:16:11.717] [INFO] dev - localhost:3000
+[2016-05-18 19:16:55.284] [INFO] dev - localhost:3000
+[2016-05-18 19:33:38.540] [INFO] dev - localhost:3000
