@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="Application">
+<head>
+    <title>Angular Translator</title>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/libs/angular-translate.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/libs/bootstrap.js"></script>
+</head>
+<body ng-controller="TranslateController">
+
+<div class="espark">
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="alert alert-info" style="text-align: center">
+                    <h3>ESPARK ANGULAR I18N TRANSLATION CONFIGURATION EXAMPLE </h3>
+            </div>
+
+
+                <div style="text-align: center">
+                    <button class="btn btn-warning" ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"/>
+                    <button class="btn btn-warning" ng-click="changeLanguage('en')" translate="BUTTON_TEXT_EN"/>
+                    <button class="btn btn-warning" ng-click="changeLanguage('fr')" translate="BUTTON_TEXT_FR"/>
+                </div>
+
+
+
+        </div>
+    </div>
+    <div class="container" style=" text-align: center;">
+        <h2 class="alert alert-info center-block">{{ 'HEADLINE' | translate }}</h2>
+
+        <p class="alert alert-info center-block">{{ 'INTRO_TEXT' | translate }}</p>
+    </div>
+</div>
+
+</body>
+</html>

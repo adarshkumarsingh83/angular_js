@@ -1,0 +1,10 @@
+[2015-12-09 14:05:12.338] [INFO] dev - localhost:3000
+[2015-12-09 14:05:19.699] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36"
+[2015-12-09 14:07:24.289] [INFO] dev - localhost:3000
+[2015-12-09 14:12:03.726] [INFO] dev - localhost:3000
+[2015-12-11 11:40:17.076] [INFO] dev - localhost:3000
+[2015-12-15 14:05:43.846] [INFO] dev - localhost:3000
+[2015-12-15 14:05:52.873] [DEBUG] dev - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36"
+[2016-05-15 18:30:04.910] [INFO] dev - localhost:3000
+[2016-05-18 19:44:29.358] [INFO] dev - localhost:3000
+[2016-05-18 19:54:39.995] [INFO] dev - localhost:3000
