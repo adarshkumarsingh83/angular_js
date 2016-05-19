@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="Application">
+<head>
+    <title>Controller Functionality</title>
+    <script src="js/libs/angular.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-3.1.1.css"/>
+</head>
+<body ng-controller="ApplicationController">
+<div>
+    <a href="test.html" class="btn btn-link">Test Result</a>
+    <br/>
+    <br/>
+
+    <div class="container">
+        <label>Value 1</label> <input ng-model="x" type="number">
+        <br/>
+        <label>Value 2</label> <input ng-model="y" type="number">
+        <br/>
+        <label>Result</label>&nbsp;<strong>{{z}}</strong>
+        <br/>
+        <br/>
+        <input type="button" ng-click="sum()" value="+">
+        <input type="button" ng-click="subtract()" value="-">
+        <input type="button" ng-click="multiplication()" value="x">
+        <input type="button" ng-click="division()" value="/">
+    </div>
+
+</div>
+</body>
+</html>
