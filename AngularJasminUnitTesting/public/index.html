@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="shortcut icon" type="image/png" href="js/libs/jasmine/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="js/libs/jasmine/jasmine.css">
+    <script type="text/javascript" src="js/libs/jasmine/jasmine.js"></script>
+    <script type="text/javascript" src="js/libs/jasmine/jasmine-html.js"></script>
+    <script type="text/javascript" src="js/libs/jasmine/boot.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+    var calculator = {
+        sum: function (x, y) {
+            return (x+y);
+        }
+    }
+
+    describe('calculator', function () {
+
+        it('1 + 1 should equal 2', function () {
+            expect(calculator.sum(1, 1)).toBe(2);
+        });
+
+    });
+
+
+    describe('condition evaluation', function () {
+
+        it('true to be true', function () {
+            expect(true).toBe(true);
+        });
+
+        it('false not to be true', function () {
+            expect(false).not.toBe(true);
+        });
+
+        it('1 equals to be 1', function () {
+            expect(1).toEqual(1);
+        });
+
+
+        it('adarsh equals to be adarsh', function () {
+            expect('adarsh').toEqual('adarsh');
+        });
+
+        it('adarsh not equals to be radha', function () {
+            expect('adarsh').not.toEqual('radha');
+        });
+    });
+
+</script>
+</body>
+</html>
